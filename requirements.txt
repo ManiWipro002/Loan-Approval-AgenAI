@@ -1,0 +1,36 @@
+# Core Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic[email]==2.5.0
+
+# FastAPI & Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+httpx==0.25.2
+requests==2.31.0
+
+# Streamlit UI
+streamlit==1.30.0
+
+# LangChain & LangGraph (Orchestration)
+langchain==0.1.1
+langchain-anthropic==0.1.0
+langgraph==0.0.20
+langchain-community==0.0.13
+
+# Anthropic SDK
+anthropic==0.25.1
+
+# MCP Framework
+mcp==0.8.0
+fastmcp==0.5.0
+
+# Utilities
+python-dateutil==2.8.2
+PyYAML==6.0.1
+
+# Development (Optional)
+pytest==7.4.3
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1
